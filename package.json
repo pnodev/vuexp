@@ -1,7 +1,7 @@
 {
   "name": "@pnodev/vuexp",
   "version": "0.1.0",
-  "description": "A persistence layer for vuex",
+  "description": "A persistence layer for vuex and nuxt, using async storage providers like localForage",
   "main": "lib/module.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,7 +24,10 @@
   "keywords": [
     "vuex",
     "nuxt",
-    "persistence"
+    "plugin",
+    "persist",
+    "persistence",
+    "localforage"
   ],
   "author": "Philipp Nowinski <mail@pno.dev>",
   "license": "MIT",
