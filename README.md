@@ -27,7 +27,7 @@ npm install --save @nuxtjs/localforage # or yarn add @nuxtjs/localforage
 To activate the module, you need to add it to your module-array inside `nuxt.config.json`:
 
 ```javascript
-modules: ['@pnodev/vuexp'];
+modules: ['@pnodev/vuexp'],
 ```
 
 ## Configuration
