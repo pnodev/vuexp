@@ -1,6 +1,6 @@
 {
   "name": "@pnodev/vuexp",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A persistence layer for vuex and nuxt, using async storage providers like localForage",
   "main": "lib/module.js",
   "scripts": {
