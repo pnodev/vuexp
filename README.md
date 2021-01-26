@@ -137,3 +137,11 @@ if (this.$store.state.__storeRestored) {
   // do some awesome stuff
 }
 ```
+
+If a static check is not enough (e.g. if you have to run some code as soon as the store is ready), you can subscribe to an event on the vuexp-helper:
+
+```javascript
+this.$vuexp.on('storeRestored', (state) => {
+  console.log('the store is ready now – this is the current state:', state);
+});
+```
